@@ -20,6 +20,12 @@ $Output = match ($ordine) {
 
 echo $Output;
 
-echo "Vuoi continuare?: ";
+echo "Vuoi continuare con il tuo ordine? (si/no): ";
 $scelta = trim(fgets(STDIN));
 
+if (($scelta) === 'si') {
+  echo "Inserisci il tuo ordine: ";
+  $ordine = trim(fgets(STDIN));
+}else {
+  echo "Grazie per aver ordinato a RandomPizza!";
+}
