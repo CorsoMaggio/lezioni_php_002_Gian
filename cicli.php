@@ -104,7 +104,7 @@ while(!$menu){
 }*/
 
 //Post-condizionale
-/*$i = 11;
+$i = 8;
 do{
   echo "$i \n";
   $i++;
@@ -113,4 +113,4 @@ do{
 while($i <= 10) {
   echo "$i \n";
   $i++;
-}*/
+}
