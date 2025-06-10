@@ -11,7 +11,8 @@ while ($budget >0){
     continue;
   }
   $budget -= $costo_articolo;
-  if ($budget < 0) {
+  $budget = round($budget, 2);
+  if ($budget <= 0) {
     $budget = 0;
   }
    echo "Il budget rimanente è: $budget\n";
