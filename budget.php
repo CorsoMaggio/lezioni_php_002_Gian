@@ -2,9 +2,8 @@
 const BUDGET = 1000;
 
 echo "Inserisci una cifra in euro: ";
-$input = trim(fgets(STDIN));
+$cifra = (float)trim(fgets(STDIN));
 
-$cifra = (float)$input;
 
 if ($cifra > BUDGET) {
     echo "ERROR: la cifra inserita supera il budget di " . BUDGET . " EURO.\n";
