@@ -16,4 +16,3 @@ if ($BirthY > $CurrentY) {
 } else {
     echo "Non puoi accedere alla piattaforma, devi avere almeno 4 anni";
 }
-
